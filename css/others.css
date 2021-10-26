@@ -1,0 +1,306 @@
+/* About Section */
+#about {
+    padding: 55px 10px 40px 10px;
+    line-height: 2em;
+}
+
+.logoimg {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+}
+
+@media (max-width: 900px) {
+    .logoimg {
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .logoimg {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .logoimg {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .logoimg {
+        width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .logoimg {
+        width: 85%;
+    }
+}
+
+#about h1 {
+    margin-top: 10px;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+.masbtn {
+    display: block;
+    background: #283897;
+    width: 110px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    border-radius: 15px;
+    font-size: 20px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.masbtn:hover {
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+    -webkit-transform: rotate(5deg) scale(1.1);
+    transform: rotate(5deg) scale(1.1);
+    background: #f27b37;
+}
+
+
+/* END */
+
+/* Services Page */
+
+.servicios {
+    padding: 50px 10px;
+}
+
+.servicios h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mservicescontent {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mservicesbox {
+    min-width: 200px;
+    margin: 10px 5px 10px 5px;
+    padding: 2px;
+    border: 3px solid rgba(48, 76, 124, 0.35);
+    border-radius: 5%;
+    width: 15%;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.mservicesbox:hover {
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+}
+
+.mservicesbox img {
+    width: 100%;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-radius: 5%;
+}
+
+.mservicesbox img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.mservicesbox p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.mservicesbox a {
+    color: black;
+    text-decoration: none;
+}
+
+.mservicesbox a:hover {
+    color: #b7200b;
+}
+
+/* -----------END---------------*/
+/* Contact */
+.contactanos {
+    padding: 55px 10px;
+}
+
+.contactanos h1 {
+    margin-bottom: 15px;
+}
+
+.contactways {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 99%;
+    margin: 10px auto;
+}
+
+.contactbox {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px;
+    border: 3px solid rgba(40, 56, 151, 0.07);
+    width: 20%;
+    height: 262, 516px;
+    padding: 25px;
+    line-height: 2em;
+    border-radius: 25px;
+    background: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.contactbox:hover {
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+}
+
+.contactbox:nth-child(2) {
+    padding-top: 45px;
+}
+
+.contactbox a {
+    text-decoration: none;
+    color: #f27b37;
+    -webkit-transition: all 0.25s;
+
+}
+
+.contactbox a:hover {
+    color: rgb(181, 134, 84);
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+    -webkit-transition: all 0.25s;
+}
+
+.contactboxsocial i {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    font-size: 25px;
+}
+
+.contactboxsocial i:hover {
+    -webkit-transform: rotate(40deg);
+    transform: rotate(360deg) scale(1.5);
+    color: rgb(255, 207, 156);
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+}
+
+@media (max-width: 1200px) {
+    .contactbox {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contactbox {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contactbox {
+        width: 90%;
+    }
+}
+
+/* Contact Form */
+.contactform {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    .contactform {
+        width: 95%;
+    } 
+}
+
+.contactform label {
+    display: block;
+    text-align: center;
+     margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.contactform input {
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.contactform textarea {
+    font-size: 20px;
+    width: 100%;
+}
+
+.contactform #submit_button {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    background: #283897;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 15px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactform #submit_button:hover {
+    -webkit-filter: drop-shadow(8px 8px 10px #808080);
+    filter: drop-shadow(8px 8px 10px #808080);
+    -webkit-transform: rotate(5deg) scale(1.1);
+    transform: rotate(5deg) scale(1.1);
+    background: #f27b37;
+}
